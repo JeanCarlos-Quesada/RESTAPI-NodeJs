@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 
 
 //connection string for mongoose
-mongoose.connect('mongodb+srv://rootUser:GatoNegroPerroCafe@myatlascluster.wregg.gcp.mongodb.net/NodeJSEmployees?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true },
+mongoose.connect('connection string', { useNewUrlParser: true, useCreateIndex: true },
     (err, res) => {
         if (err) throw err;
 
